@@ -4,7 +4,10 @@
 //alta coesão promove a reusabilidade e a manutenabilidade do seu código
 public class LivroDeNotas{
     //método (comportamento)
-    public void exibirMensagem (){
-        System.out.println("Bem vindo ao livro de notas");
+    //() é a lista de parâmetros desse método
+
+    //definição do método: aqui nós dissemos que ele existe
+    public void exibirMensagem(String uc){
+        System.out.println("Bem vindo ao livro de notas da UC " + uc);
     }
 }
